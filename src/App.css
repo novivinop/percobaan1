@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.reduce-height {
+  object-fit: cover;
+  height: 500px;
+  width: 100%;
+}
+
+.btn-sewa{
+  background-color: #E6BA95;
+  border: none
+}
+
+.btn-sewa:hover{
+  background-color: #282c34;
+}
+
+button {
+  background-color: #7D9D9C;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #7D9D9C;
+  color: #fff;
+}
+
+.nav-background{
+  background-color: #F9F7F7;
+}
+
+.box-shadow{
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.text{
+  text-align: left;
+}
+
+.img-border {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+}
+.border {
+  border-radius: 5px;
+  padding: 16px;
+  border-style: solid;
+}
+.background {
+  background-color: #F4F4F4;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.line-horizontal {
+  border-top: 1px solid black;
+  margin: 20px 0; 
+}
+.card-img-top {
+  object-fit: cover;
+  height: 200px;
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
