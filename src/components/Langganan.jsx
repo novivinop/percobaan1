@@ -3,7 +3,7 @@ import { Container, Card, Button, Row, Col } from 'react-bootstrap';
 const Testimoni = () => {
   return (
     <section>
-    <Container className="mt-5">
+    <Container className="mt-5 langganan">
     <Card className="text-center text-white p-3" style={{backgroundColor: "#576F72"}}>
           <Card.Body>
             <h2 className="fw-bold">Pilih internet berkualitas di Bekasi sekarang</h2>

@@ -21,7 +21,7 @@ const Testimoni = () => {
                         <Card className="mb-3 box-shadow" style={{backgroundColor: "#f1f3ff"}}>
                             <Row className="g-0 mx-2 my-5">
                                 <Col md={3} className="my-auto text-center">
-                                    <img src="/image/img_testi1.jpeg" alt="" 
+                                    <img src="/image/img_testi.jpeg" alt="" 
                                    
                                     className="img-fluid img-rounded"/>
                                 </Col>
@@ -39,7 +39,7 @@ const Testimoni = () => {
                         <Card className="mb-3 box-shadow" style={{backgroundColor: "#f1f3ff"}}>
                             <Row className="g-0 mx-2 my-5">
                                 <Col md={3} className="my-auto text-center">
-                                    <img src="/image/img_testi1.jpeg" alt="" 
+                                    <img src="/image/img_testi.jpeg" alt="" 
                                     className="img-fluid img-rounded"/>
                                 </Col>
                                 <Col md={8} className="text-start">
