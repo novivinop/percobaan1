@@ -7,17 +7,17 @@ import Footer from "../components/Footer";
 import Snk from "../components/Snk";
 
 const Home = () => {
-    return (
-        <>
-        <Header />
-        <Iklan />
-        <Intro />
-        <Snk />
-        <Testimoni />
-        <Langganan />
-        <Footer />
-        </>
-    )
-}
+  return (
+    <>
+      <Header />
+      <Iklan />
+      <Intro />
+      <Snk />
+      <Testimoni />
+      <Langganan />
+      <Footer />
+    </>
+  );
+};
 
-export default Home
+export default Home;
