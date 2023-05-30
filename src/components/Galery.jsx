@@ -20,7 +20,7 @@ const images = [
   {
     src: './image/sprising.jpeg',
     alt: 'Image 4',
-    subtitle: 'Proses Sprising'
+    subtitle: 'Proses Splising'
   },
   {
     src: './image/pemasangan.jpeg',
@@ -28,31 +28,21 @@ const images = [
     subtitle: 'Proses Pemasangan'
   },
   {
-    src: 'https://via.placeholder.com/300x200.png?text=Image+6',
+    src: './image/img_gudang.jpg',
     alt: 'Image 6',
-    subtitle: 'Image 6 Subtitle'
+    subtitle: 'Ruang gudang'
   },
   {
-    src: 'https://via.placeholder.com/300x200.png?text=Image+7',
+    src: './image/img_ruangmeeting.jpg',
     alt: 'Image 7',
-    title: 'Image 7 Title',
-    subtitle: 'Image 7 Subtitle'
-  },
-  {
-    src: 'https://via.placeholder.com/300x200.png?text=Image+8',
-    alt: 'Image 8',
-    subtitle: 'Image 8 Subtitle'
-  },
-  {
-    src: 'https://via.placeholder.com/300x200.png?text=Image+9',
-    alt: 'Image 9',
-    subtitle: 'Image 9 Subtitle'
+    subtitle: 'Ruang Meeting'
   }
 ];
 
 const Gallery = () => {
   return (
-    <Container className="nav-background mt-3">
+    <div className="mobile-padding">
+    <Container className="nav-background">
       <Row >
         {images.map((image, index) => (
           <Col sm="3" key={index}>
@@ -67,6 +57,7 @@ const Gallery = () => {
         ))}
       </Row>
     </Container>
+    </div>
   );
 };
 

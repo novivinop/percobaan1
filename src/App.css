@@ -13,12 +13,12 @@
 }
 
 .btn-sewa{
-  background-color: #E6BA95;
+  color: #E6BA95;
   border: none
 }
 
 .btn-sewa:hover{
-  background-color: #282c34;
+  color: #282c34;
 }
 
 button {
@@ -46,7 +46,10 @@ button:hover {
   border-radius: 5px;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
 }
-
+.footer {
+  height: 50px;
+  align-items: center;
+}
 .text{
   text-align: left;
 }
@@ -84,15 +87,65 @@ button:hover {
   color: #61dafb;
 }
 .line-horizontal {
+  /* border-top: 1px solid black;
+  margin: 20px 0;  */
+  width: 200px; /* Ubah sesuai panjang yang diinginkan */
+  height: 5px; /* Ubah sesuai ketebalan yang diinginkan */
+  background-color: black; /* Ubah sesuai warna yang diinginkan */
+  margin: 0 auto;
+}
+
+.line-horizontal-about {
   border-top: 1px solid black;
   margin: 20px 0; 
 }
+
+.line-horizontal-overlay {
+  /* border-top: 1px solid black;
+  margin: 20px 0;  */
+  width: 200px; /* Ubah sesuai panjang yang diinginkan */
+  height: 5px; /* Ubah sesuai ketebalan yang diinginkan */
+  background-color: #282c34; /* Ubah sesuai warna yang diinginkan */
+  margin: 0 auto;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #282c34;
+}
+
 .card-img-top {
   object-fit: cover;
   height: 200px;
 }
+.img-rounded {
+  border-radius: 50%;
+}
 
-
+@media (max-width: 767px) {
+  .mobile-padding {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .carousel {
+    width: 100%;
+    height: 150px;
+  }
+  .carousel img {
+    width: 100%;
+    height: 150px;
+  }
+  .testi {
+    display: block;
+  }
+  .mobile-margin-top {
+    margin-top: 20px; /* Sesuaikan dengan nilai margin yang diinginkan */
+  }
+}
 
 @keyframes App-logo-spin {
   from {

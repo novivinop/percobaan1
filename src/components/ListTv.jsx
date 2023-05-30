@@ -1,27 +1,48 @@
-import { Container, Row, Col, Button, Dropdown } from 'react-bootstrap';
+import { Container, Row, Col, Accordion } from 'react-bootstrap';
 
 const ListTv = () => {
   return (
-    <div>
-      <Container>
+    <div className="mobile-padding">
+      <Container className="nav-background">
        <div className="text-center">
-        <img 
+        <img
         className="d-block w-100 reduce-height"
-        src="./image/background.jpg"></img>
-          <h2 className="fw-bold">TV PROGRAM</h2>
+        src="./image/img_tv5.png"
+        alt="Gambar TV"
+        style={{ height: '350px' }} 
+      />
+        <div className="text-overlay">
+          <h1 className="fw-bold mb-3">TV PROGRAM</h1>
+          <div className="line-horizontal-overlay"></div>
+          <h4 className="text-white fs-6 fw-dark mt-4">Nusa Berkah Net menyediakan pilihan lengkap saluran televisi yang mencakup program-program untuk anak-anak, film, olahraga, dan masih banyak lagi.</h4>
+          </div>
       </div>
-      <div className="text-center">
-      <Row className="justify-content-md-center">
-          <h3>Daftar Program</h3>
-          <Col xs={8}><h7>Biznet Home memiliki paket channel lengkap yang mencakup program untuk anak-anak, film, olahraga, dan masih banyak lagi. Dengan paket channel terbaik, standar High Definition (HD), serta suara jernih, Biznet Home menawarkan pengalaman menonton terbaik untuk Kamu. Biznet Home memiliki beragam tayangan menarik yang diklasifikasikan dalam beberapa kategori. Berikut daftar channel layanan Biznet Home di Jawa dan Bali.</h7>
+      <div className="text-center mt-5">
+      <h4>Daftar Program</h4>
+      <div className="line-horizontal"></div>
+      <Row className="justify-content-md-center mt-3">
+          <Col sm={8}><h7>Nusa Berkah Net menyediakan paket saluran terbaik, resolusi tinggi standar (HD), serta kualitas suara yang jernih, Nusa Berkah Net memberikan pengalaman menonton terbaik bagi Anda. Nusa Berkah Net menawarkan berbagai macam konten menarik yang terbagi dalam beberapa kategori. Berikut adalah daftar saluran yang disediakan oleh layanan Nusa Berkah Net.</h7>
           </Col>
       </Row>
       </div>
-    </Container>
-    <Container className="text-center d-flex justify-content-center align-items-center">
+    {/* </Container>
+    <Container className="text-center"> */}
         <Row>
           <Col>
-            
+           <Row className="justify-content-md-center mt-3 g-2">
+      <Col sm={8}>
+      <Accordion defaultActiveKey="0">
+      <Accordion.Item eventKey="0">
+        <Accordion.Header><h8 className="fw-bold text-center button">Informasi Layanan Televisi</h8></Accordion.Header>
+        <Accordion.Body>
+        <div className="text-center">
+        <img src="/image/img_tv1.png" className="w-100 shadow" />
+        </div>
+    </Accordion.Body>
+      </Accordion.Item>
+      </Accordion>
+    </Col>
+      </Row>
         
           </Col>
         </Row>

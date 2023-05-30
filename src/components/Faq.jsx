@@ -6,68 +6,51 @@ const Faq= () => {
       <Row>
         <Col md={3} xs={10}>
           <h2 className="fw-bold mb-4">Frequently Asked Question</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+          <p>Cari jawaban dari pertanyaan yang sering ditanyakan oleh pelanggan</p>
         </Col>
         <Col>
           <Accordion defaultActiveKey="0" flush>
       <Accordion.Item eventKey="0">
-        <Accordion.Header>Apa itu Nusa Berkah Net?</Accordion.Header>
+        <Accordion.Header>
+        <h6 className="fw-bold">Apa itu Nusa Berkah Net?</h6>
+        </Accordion.Header>
         <Accordion.Body>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          Nusa Berkah Net adalah penyedia layanan internet yang berbasis fiber optic dari PT Alfa Omega Net yang berpusat di Cikarang, Jawa Barat.
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="1">
-        <Accordion.Header>Berapa Biaya Instalasi Nusa Berkah Net?</Accordion.Header>
+        <Accordion.Header>
+        <h6 className="fw-bold">Bagaimana cara saya mendaftar layanan Nusa Berkah Net?</h6></Accordion.Header>
         <Accordion.Body>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          Untuk melakukan pendaftaran, pastikan area Anda sudah tercakup layanan kami dengan menggubungi Contact Center atau Whatsapp yang tertera di website Nusa Berkah Net.
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="2">
-        <Accordion.Header>Apa yang saya dapatkan dengan membayar biaya pemasangan diatas?</Accordion.Header>
+        <Accordion.Header>
+        <h6 className="fw-bold">Data apa saja yang dibutuhkan untuk mendaftar Nusa Berkah Net?</h6></Accordion.Header>
         <Accordion.Body>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          KTP, alamat domisili, dan nomor HP yang tersambung dengan aplikasi Whatsapp.
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="3">
-        <Accordion.Header>Bagaimana cara saya mendaftar layanan Nusa Berkah Net?</Accordion.Header>
+        <Accordion.Header>
+        <h6 className="fw-bold">Berapa Biaya Instalasi Nusa Berkah Net?</h6></Accordion.Header>
         <Accordion.Body>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          Biaya instalasi hanya dibebankan saat awal pemasangan. Biaya instalasi untuk pelanggan baru adalah sebesar Rp. 250.000. 
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="3">
-        <Accordion.Header>Data apa saja yang dibutuhkan untuk mendaftar Nusa Berkah Net?</Accordion.Header>
+      <Accordion.Item eventKey="4">
+        <Accordion.Header>
+        <h6 className="fw-bold">Berapa lama pemasangan Nusa Berkah Net dapat dilakukan?</h6></Accordion.Header>
         <Accordion.Body>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          Pemasangan Nusa Berkah Net akan dilakukan dalam rentan waktu satu hari kerja setelah dilakukan survei lokasi sebelumnya.
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="5">
+        <Accordion.Header>
+        <h6 className="fw-bold">Bagaimana saya bisa mengetahui bahwa area saya sudah tercover layanan Nusa Berkah Net?</h6></Accordion.Header>
+        <Accordion.Body>
+          Pengecekan coverage area bisa dilakukan dengan mengubungi kontak Nusa Berkah Net yang terdapat pada halaman Contact Us.
         </Accordion.Body>
       </Accordion.Item>
     </Accordion>
