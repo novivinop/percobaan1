@@ -5,11 +5,11 @@ const images = [
   {
     src: './image/img_logowifi.png',
     alt: 'Image 1',
-    teks: '10 Mbps',
+    teks: '15 Mbps',
     href: 'https://api.whatsapp.com/send?phone=6282122951956&text=Hallo,%0ASaya%20tertarik%20dengan%20*Internet%20Premium%2010%20Mbps*,%20apakah%20bisa%20dibantu?',
     subtitle1: 'Full Fiber To The Home',
-    subtitle2: 'Up To 10 Mbps Download/Upload Unlimited Qouta',
-    subtitle3: 'Rp. 120.000/bulan'
+    subtitle2: 'Up To 15 Mbps Download/Upload Unlimited Quota',
+    subtitle3: 'Rp. 150.000/bulan'
   },
   {
     src: './image/img_logowifi.png',
@@ -17,7 +17,7 @@ const images = [
     teks: '20 Mbps',
     href: 'https://api.whatsapp.com/send?phone=6282122951956&text=Hallo,%0ASaya%20tertarik%20dengan%20*Internet%20Premium%2020%20Mbps*,%20apakah%20bisa%20dibantu?',
     subtitle1: 'Full Fiber To The Home',
-    subtitle2: 'Up To 20 Mbps Download/Upload Unlimited Qouta',
+    subtitle2: 'Up To 20 Mbps Download/Upload Unlimited Quota',
     subtitle3: 'Rp. 170.000/bulan'
   },
   {
@@ -26,7 +26,7 @@ const images = [
     teks: '30 Mbps',
     href: 'https://api.whatsapp.com/send?phone=6282122951956&text=Hallo,%0ASaya%20tertarik%20dengan%20*Internet%20Premium%2030%20Mbps*,%20apakah%20bisa%20dibantu?',
     subtitle1: 'Full Fiber To The Home',
-    subtitle2: 'Up To 30 Mbps Download/Upload Unlimited Qouta',
+    subtitle2: 'Up To 30 Mbps Download/Upload Unlimited Quota',
     subtitle3: 'Rp. 270.000/bulan'
   },
   {
@@ -35,7 +35,7 @@ const images = [
     teks: '50 Mbps',
     href: 'https://api.whatsapp.com/send?phone=6282122951956&text=Hallo,%0ASaya%20tertarik%20dengan%20*Internet%20Premium%2050%20Mbps*,%20apakah%20bisa%20dibantu?',
     subtitle1: 'Full Fiber To The Home',
-    subtitle2: 'Up To 50 Mbps Download/Upload Unlimited Qouta',
+    subtitle2: 'Up To 50 Mbps Download/Upload Unlimited Quota',
     subtitle3: 'Rp. 430.000/bulan'
   },
   {
@@ -44,7 +44,7 @@ const images = [
     teks: '100 Mbps',
     href: 'https://api.whatsapp.com/send?phone=6282122951956&text=Hallo,%0ASaya%20tertarik%20dengan%20*Internet%20Premium%20100%20Mbps*,%20apakah%20bisa%20dibantu?',
     subtitle1: 'Full Fiber To The Home',
-    subtitle2: 'Up To 100 Mbps Download/Upload Unlimited Qouta',
+    subtitle2: 'Up To 100 Mbps Download/Upload Unlimited Quota',
     subtitle3: 'Rp. 550.000/bulan'
   }
 ];

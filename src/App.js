@@ -9,6 +9,7 @@ import TvProgram from './pages/TvProgram';
 import FaqPage from './pages/FaqPage';
 import ContactUs from './pages/ContactUs';
 import PaketAddOn from './pages/PaketAddOn';
+import PaketBisnis from './pages/PaketBisnis'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/faqpage" element={<FaqPage />} />
         <Route path="/contactus" element={<ContactUs />} />
         <Route path="/paketAddOn" element={<PaketAddOn />} />
+        <Route path="/paketBisnis" element={<PaketBisnis />} />
       </Routes>
     </Router>
   )

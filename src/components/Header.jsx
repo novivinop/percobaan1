@@ -30,6 +30,7 @@ const Header = () => {
             <NavDropdown title="Paket" id="collasible-nav-dropdown">
               <NavDropdown.Item href="/Product">Paket Internet Premium</NavDropdown.Item>
               <NavDropdown.Item href="/paketAddOn">Paket Add On</NavDropdown.Item>
+              <NavDropdown.Item href="/paketBisnis">Paket Bisnis</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="/tvprogram">Daftar Channel</Nav.Link>
             <Nav.Link href="/AboutUs">Tentang Kami</Nav.Link>
