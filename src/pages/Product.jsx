@@ -4,14 +4,14 @@ import Footer from "../components/Footer";
 import Snk from "../components/Snk";
 
 const Product = () => {
-    return (
-        <>
-        <Header />
-        <Paket />
-        <Snk />
-        <Footer />
-        </>
-    )
-}
+  return (
+    <>
+      <Header />
+      <Paket />
+      <Snk />
+      <Footer />
+    </>
+  );
+};
 
-export default Product
+export default Product;
