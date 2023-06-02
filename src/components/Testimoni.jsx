@@ -16,7 +16,7 @@ const Testimoni = () => {
       </Row>
       <Row className="mt-5">
         <Col md={8} className="mx-auto">
-          <Carousel>
+          <Carousel indicators={false} controls={false}>
             <Carousel.Item>
               <Card
                 className="mb-3 box-shadow"
