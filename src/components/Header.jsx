@@ -45,6 +45,9 @@ const Header = () => {
               <NavDropdown.Item href="/paketAddOn">
                 Paket Add On
               </NavDropdown.Item>
+              <NavDropdown.Item href="/paketBisnis">
+                Paket Business
+              </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="/tvprogram">Daftar Channel</Nav.Link>
             <Nav.Link href="/AboutUs">Tentang Kami</Nav.Link>
@@ -59,7 +62,7 @@ const Header = () => {
             </NavDropdown>
             <Button
               variant="outline-light"
-              href="https://api.whatsapp.com/send?phone=6282122951956&text=Hallo,%0ASaya%20tertarik%20dengan%20Produk%20*Nusa%20Berkah%20Net*%20lebih%20lanjut."
+              href="https://api.whatsapp.com/send?phone=6281210067843&text=Hallo,%0ASaya%20tertarik%20dengan%20Produk%20*Nusa%20Berkah%20Net*%20lebih%20lanjut."
               style={{ backgroundColor: "#7D9D9C" }}
             >
               Daftar Sekarang

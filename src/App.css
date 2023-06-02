@@ -139,7 +139,9 @@ button:hover {
 .img-rounded {
   border-radius: 50%;
 }
-
+.intro {
+  width: 75%;
+}
 @media (max-width: 767px) {
   .mobile-padding {
     padding-left: 25px;
@@ -175,6 +177,11 @@ button:hover {
   .mobile-margin-top {
     margin-top: 20px;
     /* Sesuaikan dengan nilai margin yang diinginkan */
+  }
+
+  .mobile-center {
+    text-align: center;
+    width: 100%;
   }
 }
 

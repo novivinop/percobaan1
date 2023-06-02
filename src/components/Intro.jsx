@@ -55,16 +55,16 @@ const Intro = () => {
       <Container className="nav-background">
         <Row>
           <Col className="mt-4 mx-auto" xs={12} md={12} lg={6}>
-            <h2 className="fw-bold lh-base w-75">
+            <h2 className="fw-bold lh-base mt-3 intro mobile-center">
               Layanan Internet terbaik di kawasan Bekasi
             </h2>
-            <p className="w-75 mt-3">
+            <p className="mt-3 intro mobile-center">
               Selamat datang di Nusa Berkah Net. Kami menyediakan layanan
               internet kualitas terbaik dengan harga terjangkau. Selalu siap
               melayani kebutuhanmu dalam berinternet.
             </p>
             <Button
-              className="fw-bold text-white mt-3 mb-5 btn-sewa"
+              className="fw-bold text-white mt-3 mb-5 btn-sewa mobile-center"
               variant="outline-light"
               style={{ backgroundColor: "#7D9D9C" }}
               href="/Product"
