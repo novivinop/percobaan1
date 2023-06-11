@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 const Statcounter = () => {
   useEffect(() => {
     const script = document.createElement('script');
-    script.src = 'https://statcounter.com/counter/counter.js';
+    // script.src = 'https://statcounter.com/counter/counter.js';
     script.async = true;
     script.defer = true;
     document.head.appendChild(script);
