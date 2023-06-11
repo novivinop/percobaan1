@@ -8,7 +8,7 @@ const images = [
     teks: "15 Mbps",
     href: "https://api.whatsapp.com/send?phone=6282122951956&text=Hallo,%0ASaya%20tertarik%20dengan%20*Internet%20Premium%2010%20Mbps*,%20apakah%20bisa%20dibantu?",
     subtitle1: "Full Fiber To The Home",
-    subtitle2: "Up To 10 Mbps Download/Upload Unlimited Qouta",
+    subtitle2: "Up To 15 Mbps Download/Upload Unlimited Qouta",
     subtitle3: "Rp. 150.000/bulan",
   },
   {

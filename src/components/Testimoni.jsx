@@ -39,8 +39,7 @@ const Testimoni = () => {
                         className="img-fluid"
                       />
                       <p className="mt-2">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing
-                        elit.
+                        Nusa Berkah Net harganya mudah dan terjangkau.
                       </p>
                       <strong className="mt-2">Angeline Tirza, Apoteker</strong>
                     </Card.Body>
@@ -56,7 +55,7 @@ const Testimoni = () => {
                 <Row className="g-0 mx-2 my-5">
                   <Col md={3} className="my-auto text-center">
                     <img
-                      src="/image/img_testi.jpeg"
+                      src="/image/img_testi2.jpeg"
                       alt=""
                       className="img-fluid img-rounded"
                     />
@@ -70,10 +69,10 @@ const Testimoni = () => {
                         className="img-fluid"
                       />
                       <p className="mt-2">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,{" "}
+                        Nusa Berkah Net memudahkan saya sebagai mahasiswa dalam mengerjakan tugas.
                       </p>
                       <strong className="mt-2">
-                        Paulus Stevanus, Kontraktor
+                        Paulus Stevanus, Mahasiswa
                       </strong>
                     </Card.Body>
                   </Col>

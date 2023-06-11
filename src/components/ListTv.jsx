@@ -22,7 +22,7 @@ const ListTv = () => {
           </div>
         </div>
         <div className="text-center mt-5">
-          <h4>Daftar Program</h4>
+          <h4 className="fw-bold text-center">Daftar Program</h4>
           <div className="line-horizontal"></div>
           <Row className="justify-content-md-center mt-3">
             <Col sm={8}>
@@ -41,9 +41,16 @@ const ListTv = () => {
     <Container className="text-center"> */}
         <Row>
           <Col>
-            <Row className="justify-content-md-center mt-3 g-2">
+            <Row className="justify-content-md-center mt-4 g-2">
               <Col sm={8}>
-                <Accordion defaultActiveKey="0">
+                       <div className="text-center mt-3">
+                        <img
+                          src="/image/img_listtv1.png"
+                          className="w-100 shadow"
+                        />
+                      </div>
+                      
+                {/* <Accordion defaultActiveKey="0">
                   <Accordion.Item eventKey="0">
                     <Accordion.Header>
                       <h8 className="fw-bold text-center button">
@@ -59,7 +66,7 @@ const ListTv = () => {
                       </div>
                     </Accordion.Body>
                   </Accordion.Item>
-                </Accordion>
+                </Accordion> */}
               </Col>
             </Row>
           </Col>
