@@ -134,18 +134,21 @@ const images = [
     alt: "Image 1",
     subtitle1: "Contact Center",
     subtitle2: "0823 1126 3211",
+    href: "https://api.whatsapp.com/send?phone=6282311263211&text=Hallo,%0ANusa%20Berkah%20Net!%20",
   },
   {
     src: "./image/img_wa.png",
     alt: "Image 2",
     subtitle1: "Whatsapp",
     subtitle2: "0812 1006 7843",
+    href: "https://api.whatsapp.com/send?phone=6281210067843&text=Hallo,%0ANusa%20Berkah%20Net!%20",
   },
   {
     src: "./image/img_email.png",
     alt: "Image 3",
     subtitle1: "Email",
     subtitle2: "hendronoviantom021003@gmail.com",
+    href: "mailto:email@domain.com?subject=Layanan%20Nusa%20Berkah%20Net%20&body=Hallo,%20Nusa%20Berkah%20Net%21"
   },
 ];
 
@@ -184,12 +187,19 @@ const Contact = () => {
                     width="25%"
                     className="d-inline-block align-top"
                   />{" "}
+                  {/* <Card.Link href={image.href}>Card Link</Card.Link>
+                  <Card.Link href="#">Another Link</Card.Link>
+                  <Card.Subtitle className="mt-3">
+                  <Card.Link href={image.href}>{image.subtitle1}</Card.Link>
+                  </Card.Subtitle> */}
+                  {/* <Card.Link href={image.href} className="mt-3">{image.subtitle1}</Card.Link> */}
                   <Card.Subtitle className="mt-3">
                     {image.subtitle1}
                   </Card.Subtitle>
-                  <Card.Subtitle className="mt-3">
+                  <Card.Link href={image.href} className="text-dark">{image.subtitle2}</Card.Link>
+                  {/* <Card.Subtitle className="mt-3">
                     {image.subtitle2}
-                  </Card.Subtitle>
+                  </Card.Subtitle> */}
                 </Card.Body>
               </Card>
               <br></br>

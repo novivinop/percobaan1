@@ -2,6 +2,7 @@ import Header from "../components/Header";
 import Business from "../components/Business"
 import Footer from "../components/Footer";
 import BusinessNon from "../components/BusinessNon"
+import SnkBisnis from "../components/SnkBusiness";
 
 const BisnisPage = () => {
     return (
@@ -9,6 +10,7 @@ const BisnisPage = () => {
         <Header />
         <Business />
         <BusinessNon />
+        <SnkBisnis />
         <Footer />
         </>
     )

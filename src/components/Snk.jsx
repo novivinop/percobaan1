@@ -2,7 +2,6 @@ import {
   Container,
   Row,
   Card,
-  CardGroup,
   Accordion,
   Col,
 } from "react-bootstrap";
