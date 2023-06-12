@@ -6,7 +6,7 @@ import Langganan from "../components/Langganan";
 import Footer from "../components/Footer";
 import Snk from "../components/Snk";
 import React, { useEffect } from "react";
-import Statcounter from "../components/Statcounter";
+// import Statcounter from "../components/Statcounter";
 
 const Home = () => {
   useEffect(() => {
